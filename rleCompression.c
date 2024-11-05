@@ -39,5 +39,8 @@ int main() {
         printf("Memory allocation failed.\n");
     }
 
+    //Wait for user input before closing
+    printf("Press Enter to exit ...\n");
+    getchar();
     return 0;
 }
